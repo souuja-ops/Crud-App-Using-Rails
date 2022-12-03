@@ -1,24 +1,68 @@
-# README
+# Rails CRUD APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is Rails Simple CRUD project which is adds,show, edit and deleted friends list
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Ruby on Rails
+- sqlite3
 
-* Configuration
+## Getting Started
 
-* Database creation
+**To get a local copy up and running follow these simple example steps:**
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://gorails.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+- Make sure you have Ruby on Rails set up properly on your computer
 
-* ...
+``` sh 
+  git clone git@github.com:souuja-ops/Crud-App-Using-Rails.git
+``` 
+``` sh 
+  cd Crud-App-Using-Rails
+```
+
+### Install
+
+```sh
+  bundle install
+```
+### Run
+
+```
+  rails db:create
+```
+
+```
+  rails db:migrate
+```
+
+```
+  rails s
+```
+
+### Test
+
+```sh
+  rspec
+```
+### Usage
+
+To start Rails CRUD you need to first `signup`
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+- Feel free to check the [issues page](https://github.com/souuja-ops/Crud-App-Using-Rails/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
